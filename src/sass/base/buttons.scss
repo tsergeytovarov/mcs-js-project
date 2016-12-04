@@ -24,9 +24,14 @@
   }
 
   &--big {
+    margin: 0 auto 30px;
     padding: 20px 40px;
     font-size: 20px;
     line-height: 20px;
-    margin: 0 auto 30px;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
   }
 }
