@@ -1,10 +1,19 @@
 .btn {
   display: inline-block;
   box-sizing: border-box;
+  padding: 15px 10px;
+  outline: none;
+  border: 0;
+  background-color: $blue;
+  color: $white;
+  cursor: pointer;
   cursor: pointer;
   text-align: center;
   vertical-align: top;
   text-decoration: none;
+  font-family: $code-font;
+  font-size: 14px;
+  line-height: 14px;
 
   &:hover {
     opacity: 0.8;
@@ -12,5 +21,12 @@
 
   &:active {
     opacity: 1;
+  }
+
+  &--big {
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 auto 30px;
   }
 }
