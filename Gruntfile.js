@@ -240,9 +240,7 @@ module.exports = function(grunt) {
     'cmq',
     'autoprefixer',
     'csscomb',
-    'cssmin',
     'concat',
-    'uglify',
     'imagemin'
   ]);
 
